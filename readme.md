@@ -13,8 +13,8 @@
 ## การใช้งาน Module 
 
 1. [การเรียกใช้ Module](/node-module.md) 
-2. การติดตั้ง Module ด้วย NPM (Node Package Manager)
-3. การเรียกใช้ Module ที่ติดตั้งในโปรเจค
+2. [การติดตั้ง Module ด้วย NPM (Node Package Manager)](/node-module-npm.md)
+3. [การเรียกใช้ Module ที่ติดตั้งในโปรเจค](/node-module-npm-using.md)
 
 ## การสร้าง Module 
 

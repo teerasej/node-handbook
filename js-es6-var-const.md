@@ -1,7 +1,7 @@
 
 # JavaScirpt ES6 - ตัวแปร และค่าคงที่ (Variable & Constant)
 
-## Variable 
+## 1. Variable 
 
 การประกาศตัวแปร
 
@@ -10,7 +10,7 @@ let username = "Teerasej";
 let birthYear = 1985;
 ```
 
-## Constant
+## 2. Constant
 
 การประกาศค่าคงที่
 

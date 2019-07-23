@@ -11,7 +11,7 @@ function plus(first, second) {
 console.log(plus(10,9)); // 19 
 ```
 
-## การประกาศแบบ Arrow Function
+## 1. การประกาศแบบ Arrow Function
 
 ```js
 let plus = (first, second) => {
@@ -21,7 +21,7 @@ let plus = (first, second) => {
 console.log(plus(10,9)); // 19 
 ```
 
-## รูปย่อของ Arrow Function
+## 2. รูปย่อของ Arrow Function
 
 การประกาศแบบ Arrow Function ยังสามารถย่อรูปได้ด้วย เช่น
 
