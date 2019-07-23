@@ -18,9 +18,9 @@
 
 ## การสร้าง Module 
 
-1. [การสร้าง Module ใช้งานเอง](/create-node-module.md)
-2. [การ Publish Module ผ่าน NPM](/create-node-module-publish.md)
-3. JS ES6 - Class 
+1. [การเขียน JavaScript เพื่อนำไปใช้งานนอก module](/create-node-module-export.md)
+2. [การสร้าง Module ใช้งานเอง](/create-node-module.md)
+3. [การ Publish Module ผ่าน NPM](/create-node-module-publish.md)
 
 ## Git 
 
@@ -28,5 +28,5 @@
 
 ## create-react-app
 
-- สร้างและรันใช้งานโปรเจค Create React App
+- [สร้างและรันใช้งานโปรเจค Create React App](/react-create-app.md)
 
