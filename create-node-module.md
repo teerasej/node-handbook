@@ -25,13 +25,26 @@ npm init
 
 ## 2. การติดตั้ง package เพิ่มเติม
 
-เราสามารถอ้างอิง module ของคนอื่น ใน package ของเราได้ด้วย เช่น
+เราสามารถอ้างอิง module ของคนอื่น ใน package ของเราได้ด้วย 
+
+เช่น การรันคำสั่ง
 
 ```bash
-npm i express --save
+npm i nextflow-calculator --save
+```
+สังเกตว่าในไฟล์ **package.json** จะมีส่วนที่ชื่อว่า `dependencies` ขึ้นมา 
+
+```bash
+npm i nextflow-calculator --save-dev
 ```
 
+สังเกตว่าในไฟล์ **package.json** จะมีส่วนที่ชื่อว่า `dependencies` ขึ้นมา 
 
+### ความแตกต่างระหว่าง `dependencies` กับ `dev-dependencies`
 
 1. `dependencies` จะเป็นรายชื่อ module ที่ใช้จริงๆ (เรียกว่า Runtime module)
 2. `dev-dependencies` จะเป็นรายชื่อ module ที่ใช้ตอน development เท่านั้น (เรียกว่า Development module)
+
+
+
+

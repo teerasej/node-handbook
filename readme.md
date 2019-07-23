@@ -1,7 +1,7 @@
 
 # Node.js Handbook
 
-- [Download Slide]()
+- [Download Slide](https://www.dropbox.com/s/6hdh86df0izuen3/Node%20JS%20for%20beginner.pdf?dl=0)
 
 ## ควบคุมและใช้งาน Node CLI
 
@@ -18,13 +18,15 @@
 
 ## การสร้าง Module 
 
-1. การสร้าง Module ใช้งานเอง
-2. JS ES6 - Class
-3. การ Publish Module ผ่าน NPM
+1. [การสร้าง Module ใช้งานเอง](/create-node-module.md)
+2. [การ Publish Module ผ่าน NPM](/create-node-module-publish.md)
+3. JS ES6 - Class 
 
 ## Git 
 
-- [Download Slide]()
+- [Download Slide](https://www.dropbox.com/s/qkts9an2mnetj80/Git%20for%20Beginner.pdf?dl=0)
 
 ## create-react-app
+
+- สร้างและรันใช้งานโปรเจค Create React App
 
