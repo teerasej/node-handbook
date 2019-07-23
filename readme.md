@@ -26,7 +26,13 @@
 
 - [Download Slide](https://www.dropbox.com/s/qkts9an2mnetj80/Git%20for%20Beginner.pdf?dl=0)
 
+
+## Exercise 
+
+- [สร้าง Node Module สำหรับใช้ในโปรเจค](/exercise/create-data-module.md)
+
 ## create-react-app
 
 - [สร้างและรันใช้งานโปรเจค Create React App](/react-create-app.md)
+
 
