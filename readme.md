@@ -1,6 +1,10 @@
 
 # Node.js Handbook
 
+- by Teerasej Jiraphatchandej, [Nextflow.in.th](https://www.nextflow.in.th)
+
+## Resource
+
 - [Download Slide](https://www.dropbox.com/s/6hdh86df0izuen3/Node%20JS%20for%20beginner.pdf?dl=0)
 
 ## ควบคุมและใช้งาน Node CLI
