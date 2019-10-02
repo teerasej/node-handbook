@@ -1,5 +1,5 @@
 
-# JavaScirpt ES6 - Function 
+# 4. JavaScirpt ES6 - Function 
 
 การประกาศ Function แบบเดิม
 
