@@ -17,15 +17,15 @@
 
 ## การใช้งาน Module 
 
-5. [การเรียกใช้ Module](/node-module.md) 
-6. [การติดตั้ง Module ด้วย NPM (Node Package Manager)](/node-module-npm.md)
-7. [การเรียกใช้ Module ที่ติดตั้งในโปรเจค](/node-module-npm-using.md)
+6. [การเรียกใช้ Module](/node-module.md) 
+7. [การติดตั้ง Module ด้วย NPM (Node Package Manager)](/node-module-npm.md)
+8. [การเรียกใช้ Module ที่ติดตั้งในโปรเจค](/node-module-npm-using.md)
 
 ## การสร้าง Module 
 
-8. [การเขียน JavaScript เพื่อนำไปใช้งานนอก module](/create-node-module-export.md)
-9. [การสร้าง Module ใช้งานเอง](/create-node-module.md)
-10. [การ Publish Module ผ่าน NPM](/create-node-module-publish.md)
+9. [การเขียน JavaScript เพื่อนำไปใช้งานนอก module](/create-node-module-export.md)
+10. [การสร้าง Module ใช้งานเอง](/create-node-module.md)
+11. [การ Publish Module ผ่าน NPM](/create-node-module-publish.md)
 
 ## Git 
 

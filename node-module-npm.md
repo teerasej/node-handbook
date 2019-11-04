@@ -1,5 +1,5 @@
 
-# 6. การติดตั้ง Module ด้วย NPM (Node Package Manager)
+# 7. การติดตั้ง Module ด้วย NPM (Node Package Manager)
 
 เราสามารถหา Node Module ได้จากเว็บไซต์ 
 
