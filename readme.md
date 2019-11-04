@@ -13,6 +13,7 @@
 2. [การเรียกใช้ Node CLI](/node-cli.md)
 3. [JS ES6 - ตัวแปร และค่าคงที่ (Variable & Constant)](/js-es6-var-const.md)
 4. [JS ES6 - function](/js-es6-function.md)
+5. [JS ES6 - Class, Property, Method](/js-es6-class.md);
 
 ## การใช้งาน Module 
 
