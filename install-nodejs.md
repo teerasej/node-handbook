@@ -1,5 +1,5 @@
 
-# 1. ติดตั้ง Node Runtime 
+# ติดตั้ง Node Runtime 
 
 - [Node.js](https://nodejs.org/en/)
 

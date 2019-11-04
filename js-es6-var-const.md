@@ -1,5 +1,5 @@
 
-# 3. JavaScirpt ES6 - ตัวแปร และค่าคงที่ (Variable & Constant)
+# JavaScirpt ES6 - ตัวแปร และค่าคงที่ (Variable & Constant)
 
 ## 1. Variable 
 

@@ -1,5 +1,5 @@
 
-# 5. JavaScirpt ES6 - Class, Property, Method 
+# JavaScirpt ES6 - Class, Property, Method 
 
 การประกาศ class ใน JavaScript
 
