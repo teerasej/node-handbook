@@ -36,9 +36,10 @@
 ## Exercise 
 
 - [สร้าง Node Module สำหรับใช้ในโปรเจค](/exercise/create-data-module.md)
-
-## create-react-app
-
 - [สร้างและรันใช้งานโปรเจค Create React App](/react-create-app.md)
+
+## Express Web API
+
+- [สร้าง Web API ด้วย Express](express-web-api/readme.md)
 
 
