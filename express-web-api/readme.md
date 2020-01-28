@@ -13,3 +13,7 @@
 6. [ติดตั้ง และเขียน module ใช้งาน Promise MySQL](mysql-npm-install.md) 
 7. [เรียนรู้ และใช้งาน Middleware](middleware.md)
 8. [สร้างการทำงานของ Route Employee](complete-route-employee.md)
+
+### กำหนด CORS 
+
+9. [กำหนด CORS](enable-cors.md) 
