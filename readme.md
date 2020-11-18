@@ -13,8 +13,9 @@
 2. [การเรียกใช้ Node CLI](/node-cli.md)
 3. [JS ES6 - ตัวแปร และค่าคงที่ (Variable & Constant)](/js-es6-var-const.md)
 4. [การเขียน JavaScript แยกไฟล์เพื่อใช้ในการ reuse](/create-node-module-export.md)
-5. [JS ES6 - function](/js-es6-function.md)
-6. [JS ES6 - Class, Property, Method](/js-es6-class.md);
+5. [การใช้ keyword import และ export ใน Node.js](/import-export-node-module.md)
+6. [JS ES6 - function](/js-es6-function.md)
+7. [JS ES6 - Class, Property, Method](/js-es6-class.md);
 
 ## การใช้งาน Module 
 
