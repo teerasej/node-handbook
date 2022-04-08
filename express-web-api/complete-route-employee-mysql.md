@@ -1,5 +1,5 @@
 
-# สร้างการทำงานของ Route Employee
+# สร้างการทำงานของ Route Employee (MySQL)
 
 เปิดไฟล์ `index.js`
 

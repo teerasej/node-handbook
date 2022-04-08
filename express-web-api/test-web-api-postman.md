@@ -33,3 +33,5 @@ Body -> Raw (JSON)
 	"email":"johnson@gmail.com"
 }
 ```
+
+### ตอนนี้ข้อมูล JSON ที่ส่งกลับมาจาก POST จะไม่มีอะไรตอบกลับมาเพราะ API เรายังถอดข้อมูล JSON ออกจาก Request ไม่ได้

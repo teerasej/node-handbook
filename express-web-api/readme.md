@@ -9,13 +9,30 @@
 2. [กำหนด Route URL และเริ่มกำหนด port เพื่อเริ่มการทำงาน](setup-default-route-and-port.md)
 3. [กำหนด Route สำหรับแสดงข้อมูลพนักงาน และเพิ่มพนักงานใหม่](route-for-get-post-employee.md)
 4. [การทดสอบ Web API ด้วย POSTMan](test-web-api-postman.md)
-5. [เตรียมฐานข้อมูล](prepare-db.md)
-6. [ติดตั้ง และเขียน module ใช้งาน Promise MySQL](mysql-npm-install.md) 
-7. [เรียนรู้ และใช้งาน Middleware](middleware.md)
-8. [สร้างการทำงานของ Route Employee](complete-route-employee.md)
-
-### กำหนด CORS 
-
-9. [กำหนด CORS](enable-cors.md) 
+5. [เรียนรู้ และใช้งาน Middleware](middleware.md)
+6. [ถอดข้อมูล JSON จาก Request ด้วย Middleware](middleware-express-json.md)
 
 
+## Connect to Database
+
+### A. MongoDB
+
+1. [ติดตั้งและเรียกใช้งาน MongoDB ด้วย Docker](https://github.com/teerasej/docker-handbook/blob/master/simple-mongo/readme.md)
+2. [เตรียมการเชื่อมต่อ Mongo](prepare-db-mongo.md)
+3. [สร้างการทำงานของ Route Employees](complete-route-employee-mongo.md)
+
+### B. MySQL
+
+1. [เตรียมฐานข้อมูล](prepare-db.md)
+2. [ติดตั้ง และเขียน module ใช้งาน Promise MySQL](mysql-npm-install.md) 
+3. [สร้างการทำงานของ Route Employees](complete-route-employee-mysql.md)
+
+
+## Deploy with Docker
+
+1. [วิธีสร้าง Image และใช้งาน Container](create-dockerfile.md)
+2. [การใช้งาน docker compose](docker-compose.md)
+
+## กำหนด CORS 
+
+- [กำหนด CORS](enable-cors.md) 

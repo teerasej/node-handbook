@@ -9,8 +9,8 @@ app.get('/employees', async (req, res) => {
     res.json({});
 })
 
-app.post('/employees/create', async (req, res) => {
-    res.json({});
+app.post('/employees', async (req, res) => {
+    res.json(req.body);
 })
 ```
 
@@ -28,8 +28,8 @@ app.get('/employees', async (req, res) => {
     res.json({});
 })
 
-app.post('/employees/create', async (req, res) => {
-
+app.post('/employees', async (req, res) => {
+    res.json(req.body);
 })
 
 
