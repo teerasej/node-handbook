@@ -20,6 +20,7 @@
 1. [ติดตั้งและเรียกใช้งาน MongoDB ด้วย Docker](https://github.com/teerasej/docker-handbook/blob/master/simple-mongo/readme.md)
 2. [เตรียมการเชื่อมต่อ Mongo](prepare-db-mongo.md)
 3. [สร้างการทำงานของ Route Employees](complete-route-employee-mongo.md)
+4. [Validate JSON ด้วย Joi](validation-with-joi.md)
 
 ### B. MySQL
 
