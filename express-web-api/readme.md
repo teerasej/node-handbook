@@ -21,6 +21,7 @@
 2. [เตรียมการเชื่อมต่อ Mongo](prepare-db-mongo.md)
 3. [สร้างการทำงานของ Route Employees](complete-route-employee-mongo.md)
 4. [Validate JSON ด้วย Joi](validation-with-joi.md)
+5. [การใช้งาน Mongoose](using-mongoose.md)
 
 ### B. MySQL
 
