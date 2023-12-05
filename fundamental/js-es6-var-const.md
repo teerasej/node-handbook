@@ -1,20 +1,25 @@
 
-# JavaScirpt ES6 - ตัวแปร และค่าคงที่ (Variable & Constant)
+# ตัวแปร และค่าคงที่ (Variable & Constant)
 
 ## 1. Variable 
 
 การประกาศตัวแปร
 
-```js
+```ts
 let username = "Teerasej";
 let birthYear = 1985;
 ```
+
+สังเกตว่าใน TypeScript ถ้าไม่ระบุชนิดของตัวแปร TypeScript จะพยายามกำหนดให้ตัวแปรเป็นชนิดที่เหมาะสม โดยอ้างอิงจากค่าที่กำหนดให้กับตัวแปร
+
+
+
 
 ## 2. Constant
 
 การประกาศค่าคงที่
 
-```js
+```ts
 const IP = "127.0.0.1";
 
 IP = "192.168.1.1" // ตรงนี้จะเกิด Error เพราะพยายามกำหนดค่าใหม่ให้ const

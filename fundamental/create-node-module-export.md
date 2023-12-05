@@ -9,33 +9,58 @@
 
 เราสามารถกำหนดค่าให้กับตัวแปรพิเศษ ที่ Node เตรียมไว้ให้เราได้
 
-```js
-module.exports = ...
+```ts
+export ...
 ```
 
 ## Export เป็นตัวแปร
 
-```js
-// config.js
-const url = 'https://www.nextflow.in.th/api';
-module.exports = url;
+ทดสอบสร้างไฟล์ config.ts และ export ตัวแปร url ออกไปใช้งาน
 
+```ts
+// config.ts
+export const url: string = 'https://www.nextflow.in.th/api';
+```
 
-// index.js
-const ENDPOINT = require('config');
-console.log(ENDPOINT);
+นำค่าตัวแปร url ออกมาใช้งาน ในไฟล์ index.ts
+
+```ts
+// index.ts
+
+// การ import ตัวแปร url จากไฟล์ config.ts
+import { url } from './config';
+
+// การ import ตัวแปร url และตั้งชื่อตัวแปรใหม่เป็น ENDPOINT
+import { url as ENDPOINT } from './config';
+
+console.log(`Url: ${url}`);
+console.log(`Endpoint: ${ENDPOINT}`);
 ```
 
 ## Export เป็น Function
 
-```js
-// greeting.js
-module.exports = (name) => 'Hello, ' + name;
+สร้างไฟล์ greeting.ts และ export ฟังก์ชัน greeting ออกไปใช้งาน
 
+```ts
+// greeting.ts
 
-// index.js
-const greeting = require('greeting');
+// สร้างฟังก์ชัน greeting และ export ออกไปใช้งาน
+export const greeting = function(name: string): string {
+    return `Hello, ${name}`;
+}
+
+// สร้างฟังก์ชัน goodbye แบบ Arrow function และ export ออกไปใช้งาน
+export const goodbye = (name: string): string => `Goodbye, ${name}`;
+```
+
+นำฟังก์ชัน greeting และ  ออกมาใช้งาน ในไฟล์ index.ts
+
+```ts
+
+// index.ts
+import { greeting, goodbye } from './greeting';
 console.log(greeting('pon'));
+console.log(goodbye('pon'));
 ```
 
 ## Export เป็น Object
