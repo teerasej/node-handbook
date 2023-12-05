@@ -1,5 +1,5 @@
 
-# Node.js Handbook
+# Node.js Handbook (TypeScript Edition)
 
 - by Teerasej Jiraphatchandej, [Nextflow.in.th](https://www.nextflow.in.th)
 
@@ -16,35 +16,27 @@
 
 6. [การสร้างโปรเจค Node.js ที่ใช้ TypeScript](fundamental/create-node-typescript-project.md)
 
-
 ## Part 3: Fundamental
 
 7. [ตัวแปร และค่าคงที่ (Variable & Constant)](fundamental/js-es6-var-const.md)
-8. [การเขียน JavaScript แยกไฟล์เพื่อใช้ในการ reuse](fundamental/create-node-module-export.md)
-9. [การใช้ keyword import และ export ใน Node.js](fundamental/import-export-node-module.md)
-10. [Function](fundamental/js-es6-function.md)
-11. [Class, Property, Method](fundamental/js-es6-class.md);
+8. [การเขียน TypeScript แยกไฟล์เพื่อจัดการ หรือ Reuse](fundamental/create-node-module-export.md)
+   1. Exercise 1 - [Export/Import ตัวแปร](fundamental/export-import/exercise-1.md)
+   2. Exercise 2 - [Export/Import Function](fundamental/export-import/exercise-2.md)
+
 
 ## Part 4: การใช้งาน Module 
 
-12. [การเรียกใช้ Module](fundamental/node-module.md) 
-13. [การเรียกใช้ Module ที่ติดตั้งในโปรเจค](fundamental/node-module-npm-using.md)
+9. [การเรียกใช้ Module](fundamental/node-module.md) 
+10. [การเรียกใช้ Module ที่ติดตั้งในโปรเจค](fundamental/node-module-npm-using.md)
 
 
-## การสร้าง Module 
+## Part 5: การใช้งาน Class, Enum, Interface
 
-10. [การเขียน JavaScript เพื่อนำไปใช้งานนอก module](fundamental/create-node-module-export.md)
-11. [การสร้าง Module ใช้งานเอง](fundamental/create-node-module.md)
-12. [การ Publish Module ผ่าน NPM](fundamental/create-node-module-publish.md)
-
-
-## Exercise 
-
-- [สร้าง Node Module สำหรับใช้ในโปรเจค](/exercise/create-data-module.md)
-- [สร้างและรันใช้งานโปรเจค Create React App](fundamental/react-create-app.md)
-
-## Express Web API
-
-- [สร้าง Web API ด้วย Express](express-web-api/readme.md)
+11.  [การสร้าง และใช้งาน Class, Property, Method](fundamental/class.md);
+12.  [Enum](fundamental/enum.md);
+13.  [Interface](fundamental/interface.md);
 
 
+## Part 6: Null Safety
+
+13. [การทำงานกับค่า `undefined` หรือค่า `null`](fundamental/null-safety.md)

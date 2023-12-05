@@ -1,104 +1,81 @@
 
-# การเขียน JavaScript เพื่อนำไปใช้งานนอก module
+# การเขียน TypeScript แยกไฟล์เพื่อจัดการ หรือ Reuse
 
-โดยปกติ Node จะถือว่า code ในไฟล์ JavaScript แต่ละไฟล์ (หรือ Module) จะไม่สามารถอ้างถึงกันและกันได้ 
+โดยปกติ Node จะถือว่า code ในไฟล์ TypeScript แต่ละไฟล์ (หรือ Module) จะไม่สามารถอ้างถึงกันและกันได้ ถ้าเราต้องการใช้งาน code ในไฟล์ TypeScript อื่น ๆ เราจะต้องทำการ import ไฟล์นั้นเข้ามาใช้งาน 
 
-> ในเชิง Object-Oriented Programming เหมือนกับทุกอย่างเป็น private นั่นเอง
+> ในมุมมองของการเขียนโปรแกรม Object-Oriented Programming เหมือนกับทุกอย่างเป็น private นั่นเอง
 
-## วิธีการส่งผ่าน Code ออกไปใช้นอก module
+## 1. การ import และ export ใน TypeScript
 
-เราสามารถกำหนดค่าให้กับตัวแปรพิเศษ ที่ Node เตรียมไว้ให้เราได้
+การ import และ export ใน TypeScript จะมีรูปแบบการเขียนดังนี้
 
-```ts
-export ...
-```
+### 1.1 การ Export และ Import แบบ Default
 
-## Export เป็นตัวแปร
-
-ทดสอบสร้างไฟล์ config.ts และ export ตัวแปร url ออกไปใช้งาน
+ทดสอบสร้างไฟล์ export-default.ts และ export ฟังก์ชันเป็นค่าเริ่มต้นจากไฟล์นี้ ออกไปใช้งาน
 
 ```ts
-// config.ts
-export const url: string = 'https://www.nextflow.in.th/api';
+// lib.ts
+
+// การ export แบบ default
+export default function() {
+    console.log('my function');
+}
 ```
 
-นำค่าตัวแปร url ออกมาใช้งาน ในไฟล์ index.ts
+นำค่าฟังก์ชันที่ export ออกมาใช้งาน ในไฟล์ index.ts
 
 ```ts
 // index.ts
 
-// การ import ตัวแปร url จากไฟล์ config.ts
-import { url } from './config';
+// การ import แบบ default
+import myFunc1 from './lib';
 
-// การ import ตัวแปร url และตั้งชื่อตัวแปรใหม่เป็น ENDPOINT
-import { url as ENDPOINT } from './config';
-
-console.log(`Url: ${url}`);
-console.log(`Endpoint: ${ENDPOINT}`);
+myFunc1();
 ```
 
-## Export เป็น Function
+จากนั้นบันทึกไฟล์ และทดสอบรันคำสั่ง tsc เพื่อดูผลลัพธ์
 
-สร้างไฟล์ greeting.ts และ export ฟังก์ชัน greeting ออกไปใช้งาน
+
+### 1.2 การ Export และ Import แบบกำหนดชื่อ
+
+ให้เพิ่มการ export ฟังก์ชัน export1Function และตัวแปร counter ออกไปใช้งาน
 
 ```ts
-// greeting.ts
+// lib.ts
 
-// สร้างฟังก์ชัน greeting และ export ออกไปใช้งาน
-export const greeting = function(name: string): string {
-    return `Hello, ${name}`;
+export default function() {
+    console.log('my function');
 }
 
-// สร้างฟังก์ชัน goodbye แบบ Arrow function และ export ออกไปใช้งาน
-export const goodbye = (name: string): string => `Goodbye, ${name}`;
+export function export1Function() {
+    console.log('export1 function');
+}
+
+export var counter = 0;
 ```
 
-นำฟังก์ชัน greeting และ  ออกมาใช้งาน ในไฟล์ index.ts
+จากนั้นให้เพิ่มการ import ฟังก์ชัน **export1Function** และตัวแปร **counter** ออกมาใช้งาน ในไฟล์ index.ts
 
 ```ts
-
 // index.ts
-import { greeting, goodbye } from './greeting';
-console.log(greeting('pon'));
-console.log(goodbye('pon'));
+
+// การ import แบบ default
+import myFunc1 from './lib';
+
+// การ import แบบ named
+import { export1Function, counter } from './lib';
+import { export1Function as functionA } from './lib';
+
+myFunc1();
+export1Function();
+console.log(counter);
+functionA();
 ```
 
-## Export เป็น Object
+ทดสอบรันคำสั่งเพื่อดูผลลัพธ์
 
-```js
-// auth.js
-module.exports = {
-    login: (username, password) => {
-        console.log('Logging in: ' + username);
-    }
-}
-
-
-// index.js
-const auth = require('auth');
-auth.login('pon','nextflow');
+```bash
+ืnpm start
 ```
-
-## Export เป็น Class 
-
-```js
-// user.js
-module.exports = class User {
-    constructor(username){
-        this.username = username;
-    }
-
-    display() {
-        console.log('Username: ' + this.username );
-    }
-}
-
-
-// index.js
-const User = require('user');
-let userA = new User('pon');
-userA.display();
-```
-
 
 
