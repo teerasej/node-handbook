@@ -4,6 +4,11 @@
 - by Teerasej Jiraphatchandej, [Nextflow.in.th](https://www.nextflow.in.th)
 
 
+## Optional: Git 
+
+หากต้องการใช้งาน Git สามารถ[ดูวิธีติดตั้ง และตั้งค่าได้จากที่นี่ Git Handbook](https://github.com/teerasej/git-handbook/blob/master/setup.md)
+
+
 ## Part 1: ควบคุมและใช้งาน Node CLI (JS)
 
 1. [ติดตั้ง Node Runtime](fundamental/install-nodejs.md) 
