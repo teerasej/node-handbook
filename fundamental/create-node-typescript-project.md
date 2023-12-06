@@ -19,7 +19,7 @@ npm init -y
 1. โดยการรันคำสั่งด้านล่างใน Terminal ของ Visual Studio Code
 
 ```bash
-npm install typescript --save-dev
+npm i typescript --save-dev
 ```
 
 2. รันคำสั่งด้านล่าง เพื่อสร้างไฟล์ `tsconfig.json` ในโปรเจค
