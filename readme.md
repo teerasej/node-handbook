@@ -23,6 +23,8 @@
 
 ## Part 3: Fundamental
 
+https://stackblitz.com/edit/node-ukhved
+
 7. [ตัวแปร และค่าคงที่ (Variable & Constant)](fundamental/js-es6-var-const.md)
 8. [การเขียน TypeScript แยกไฟล์เพื่อจัดการ หรือ Reuse](fundamental/create-node-module-export.md)
    1. Exercise 1 - [Export/Import ตัวแปร](fundamental/export-import/exercise-1.md)
