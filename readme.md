@@ -38,8 +38,8 @@
 ## Part 5: การใช้งาน Class, Enum, Interface
 
 11.  [การสร้าง และใช้งาน Class, Property, Method](fundamental/class.md);
-12.  [Enum](fundamental/enum.md);
-13.  [Interface](fundamental/interface.md);
+12.  [Enum](fundamental/enum.md)
+13.  [Interface](fundamental/interface.md)
 
 
 ## Part 6: Null Safety
