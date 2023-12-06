@@ -23,7 +23,8 @@
 
 ## Part 3: Fundamental
 
-https://stackblitz.com/edit/node-ukhved
+- สามารถทดสอบ TypeScript บน StackBliz (ต้อง login ด้วย Github account) https://stackblitz.com/edit/node-ukhved
+- หรือ clone โปรเจคจาก [https://github.com/teerasej/nextflow-blank-typescript](https://github.com/teerasej/nextflow-blank-typescript/tree/finish-blank-typescript-setup)
 
 7. [ตัวแปร และค่าคงที่ (Variable & Constant)](fundamental/js-es6-var-const.md)
 8. [การเขียน TypeScript แยกไฟล์เพื่อจัดการ หรือ Reuse](fundamental/create-node-module-export.md)
