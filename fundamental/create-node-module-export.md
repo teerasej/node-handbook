@@ -75,7 +75,7 @@ functionA();
 ทดสอบรันคำสั่งเพื่อดูผลลัพธ์
 
 ```bash
-ืnpm start
+npm start
 ```
 
 
