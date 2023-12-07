@@ -60,7 +60,7 @@ console.log(os.platform())
 2. จากนั้นใช้คำสั่งด้านล่างเพื่อคอมไพล์ และรันไฟล์ใน terminal
 
 ```bash
-ืnpm run build
+npm run build
 ```
 
 ```bash
