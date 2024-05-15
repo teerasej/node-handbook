@@ -5,7 +5,7 @@
 
 ## Resource
 
-- [Download Slide](https://www.dropbox.com/s/6hdh86df0izuen3/Node%20JS%20for%20beginner.pdf?dl=0)
+- [Download Slide]([https://www.dropbox.com/s/6hdh86df0izuen3/Node%20JS%20for%20beginner.pdf?dl=0](https://nextflowth-my.sharepoint.com/:b:/g/personal/teerasej_nextflowth_onmicrosoft_com/EYkjkHXiIkdHl8bk8gWnrckB9gfGpVPIrPwbs0Kda7KUbQ?e=rMxMrL))
 
 ## ควบคุมและใช้งาน Node CLI
 
